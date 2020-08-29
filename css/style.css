@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-color:lavenderblush;
+}
+#top{
+    height: 80px;
+    display: flex;
+}
+#box{
+    width: 300px;
+    margin-left: 80px;
+    display: flex;
+}
+#box h2{
+    color: purple;
+    margin: 10px;
+}
+#bin{
+    padding: 5px;
+    margin: 5px;
+}
+#bin #icon{
+    color: lightpink;
+}
+#box1 ul{
+list-style: none;
+display: flex;
+width: 550px;
+}
+#box1 li{
+    padding: 10px;
+    margin: 15px;
+}
+#box2{
+    width: 300px;
+    margin-left: 200px;
+}
+#bag{
+    margin:5px;
+    padding: 10px;
+
+}
+#bag #btn{
+    margin-left: 20px;
+    width: 60px;
+    padding: 10px;
+    border-radius: 15px;
+}
+#bag #icon2{
+    padding: 10px;
+    margin-left: 10px;
+    color: purple;
+}
+#bag #icon3{
+    padding: 10px;
+    margin-left: 20px;
+    color: purple;
+}
+#bg-wrapper{
+    height: 600px;
+    display: flex;
+    margin: 10px;
+}
+#menu{
+    width: 500px; 
+}
+#menulist{
+    margin: 80px;
+    width: 300px;
+    padding: 50px;
+}
+#menulist button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    background-color: purple;
+    color: white;
+
+}
+#bg-menu{
+    width: 900px;
+    margin-left: 100px;
+
+}
+@media(max-width:700px){
+    #top{
+        height: 100px;
+        border: solid 5px;
+        display: block;
+    }
+    #box2{
+        width: 300px;
+        display: inline-block;
+    }
+    #bg-wrapper{
+        height: 100%;
+        display: block;
+        margin: 10px;
+    }
+    #bg-menu img{
+        width: 400px;
+    }
+
+    
+}
